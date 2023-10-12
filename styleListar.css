@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.listar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listar .boxTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 1.5em;
+}
+
+.listar .boxTop > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  border: solid 0.1px #63264A;
+  background: #63264A;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.listar .boxBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listar .boxBottom table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #63264A;
+}
+
+.listar .boxBottom .tableTop th:nth-child(7) {
+  width: 150px;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.listar .boxBottom .tableTop th {
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+.listar .boxBottom .tableBottom td {
+  text-align: center;
+  padding: 10px;
+  border: none;
+}
+
+.listar .boxBottom .tableBottom .tableBottomOptions a {
+  text-decoration: none;
+  border: solid 0.1px #63264A;
+  background: #63264A;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+}

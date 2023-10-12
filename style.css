@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-image: url("./background.png");
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  min-height: 7.5em;
+}
+
+.box1 :hover {
+  color: #63264A;
+}
+
+.boxLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxLeft > h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2em;
+}
+
+.boxLeft > h1 > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.boxRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxRight > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 3em;
+  padding-right: 2em;
+}
+
+.boxRight > ul > li > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+}
